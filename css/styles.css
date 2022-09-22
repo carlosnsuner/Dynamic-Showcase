@@ -33,12 +33,13 @@ body {
    
     width: 54em;
     height: 39em;
-    /* background-color: dodgerblue; */
+    background-color:#3BB000;
     
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 10px #999;
 
 }
 
@@ -46,12 +47,11 @@ body {
     height: 7em;
 
     border: 0.2em solid black;
+    box-shadow: 2px 2px 5px #999;
 }
 
 .basket {
     width: 40em;
-
-
     height: 100vh;
 
     display: flex;
@@ -64,18 +64,8 @@ body {
 .containerBasket {
 
     height: 20em;
-
     width: 15em;
 
-}
-
-.actualBasket {
-    height: 17em;
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .priceCart {
@@ -95,6 +85,13 @@ body {
     
     height: 20em;
     width: 15em;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px #999;
 }
 
 .espaceTable{
