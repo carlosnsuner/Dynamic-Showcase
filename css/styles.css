@@ -59,7 +59,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 
 }
 
@@ -79,9 +79,13 @@ body {
     align-items: center;
 }
 
+.tittleFinal{
+   text-align: center;
+}
+
 .imagenLogoSelection {
 
-    height: 5em;
+    height: 3.5em;
 
     border: 0.2em solid black;
     box-shadow: 2px 2px 5px #999;
@@ -90,9 +94,10 @@ body {
 
 .textlogo {
 
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .images {
