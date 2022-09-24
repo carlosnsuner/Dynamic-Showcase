@@ -127,4 +127,16 @@ body {
     align-items: center;
 }
 
+.button {
+    text-decoration:none;
+    font-weight:300;
+    font-size:12px;
+    color:#ffffff;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color:#005BBB;
+    }
+
 
