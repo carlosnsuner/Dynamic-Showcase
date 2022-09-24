@@ -95,130 +95,13 @@ let playerSkill = [
     
     const drop = (ev) => {
         ev.preventDefault();
+    
         let data = ev.dataTransfer.getData("text");
-        
-     
-
-        // let objetoDeseo = objetos.find(objeto => {
-        //     return objeto.id == data
-        // });
-    
-        // precioTotal += objetoDeseo.precio;
-    
-        // totalCarrito.innerHTML = `${precioTotal} €`;
-   
-
-        let SkillSpainFinal = playerSkill.find(objeto => {
-            return objeto.id == data
+        let SkillSpainFinal = playerSkill.find(spain => {
+            return spain.id == data
         });
     
         resultSkillSpain += SkillSpainFinal.playerSkillSpain;
     
         skillSpain.innerHTML = `${resultSkillSpain} %`;
     };
-
-
-// Resultado de las habilidades de los jugadores de Brasil
-
-    // let skillBrasil = document.getElementById("skillBrasil");
-    // let resultSkillBrasil = 0;
-    // skillBrasil.innerHTML = `${resultSkillBrasil} %`;
-
-
-
-// -------------------------
-
-// let totalCarrito2 = document.getElementById("totalCarrito2");
-// let precioTotal2 = 0;
-// totalCarrito2.innerHTML = `${precioTotal2} %`;
-
-
-// Jugadores de la selección Brasileña.
-// let objetos2 = [
-// {
-//     id: "alisson",
-//     precio: 8
-// },
-// {
-//     id: "ederson",
-//     precio: 5
-// },
-// {
-//     id: "alexsandro",
-//     precio: 7
-// },
-// {
-//     id: "danilo",
-//     precio: 5
-// },
-// {
-//     id: "edermilitao",
-//     precio: 7
-// },
-// {
-//     id: "marquinhos",
-//     precio: 7
-// },
-// {
-//     id: "thiagosilva",
-//     precio: 9
-// },
-// {
-//     id: "casemiro",
-//     precio: 9
-// },
-// {
-//     id: "philippecoutinho",
-//     precio: 8
-// },
-// {
-//     id: "fabinho",
-//     precio: 7
-// },  
-// {
-//     id: "fred",
-//     precio: 8
-// },
-// {
-//     id: "lucaspaqueta",
-//     precio: 6
-// },
-// {
-//     id: "antony",
-//     precio: 7
-// },
-// {
-//     id: "gabrieljesus",
-//     precio: 6
-// },
-// {
-//     id: "neymarjr",
-//     precio: 9
-// },
-// {
-//     id: "raphinha",
-//     precio: 7
-// },
-// {
-//     id: "richarlison",
-//     precio: 6
-// },
-// {
-//     id: "viniciusjr",
-//     precio: 9
-// }
-
-// ];
-
-
-// Falta adefinir las constantes
-
-// let SkillBrasilFinal = objetos2.find(objetoBrasil => {
-//     return objetoBrasil.id == data
-// });
-
-// resultSkillBrasil += SkillBrasilFinal.precio;
-
-// skillBrasil.innerHTML = `${resultSkillBrasil} %`;
-// };
-
