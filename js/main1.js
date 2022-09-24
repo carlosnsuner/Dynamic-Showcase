@@ -1,14 +1,12 @@
 
-// Resultado de las habilidades de los jugadores de Brasil
+let totalCarrito1 = document.getElementById("totalCarrito1");
+let precioTotal = 0;
+totalCarrito1.innerHTML = `${precioTotal} €`;
 
-    let skillBrasil = document.getElementById("skillBrasil");
-    let resultSkillBrasil = 0;
-    skillBrasil.innerHTML = `${resultSkillBrasil} %`;
-
-
+//Declaramos el objeto
 // Jugadores de la selección Brasileña.
 
-let objetos2 = [
+let objetosBr = [
 {
     id: "alisson",
     precio: 8
@@ -84,26 +82,67 @@ let objetos2 = [
 
 ];
 
-const drag = (ev) => {
-    ev.dataTransfer.setData("text", ev.target.id);
 
-    // console.log("arrastrando...", ev.target.id);
-};
+    const drag = (ev) => {
+        ev.dataTransfer.setData("text", ev.target.id);
+    
+        // console.log("arrastrando...", ev.target.id);
+    };
+    
+    const allowDrop = (ev) => {
+        ev.preventDefault();
+    };
+    
+    const drop = (ev) => {
+        ev.preventDefault();
+        let data = ev.dataTransfer.getData("text");
+        // ev.target.appendChild(document.getElementById(data));
+        
+        let objetoDeseo = objetosBr.find(objeto => {
+            return objeto.id == data
+        });
+    
+        precioTotal += objetoDeseo.precio;
+    
+        totalCarrito1.innerHTML = `${precioTotal} €`;
+    };
 
-const allowDrop = (ev) => {
-    ev.preventDefault();
-};
 
-const drop = (ev) => {
-    ev.preventDefault();
 
-    let data = ev.dataTransfer.getData("text");
-    let SkillBrasilFinal = objetos2.find(objeto => {
-        return objeto.id == data
-});
 
-resultSkillBrasil += SkillBrasilFinal.precio;
+// Pendiente de revisar
 
-skillBrasil.innerHTML = `${resultSkillBrasil} %`;
-};
+// // Resultado de las habilidades de los jugadores de Brasil
+
+// let skillBrasil = document.getElementById("skillBrasil");
+// let resultSkillBrasil = 0;
+// skillBrasil.innerHTML = `${resultSkillBrasil} %`;
+
+
+
+
+
+// const drag = (ev) => {
+//     ev.dataTransfer.setData("text", ev.target.id);
+
+//     // console.log("arrastrando...", ev.target.id);
+// };
+
+// const allowDrop = (ev) => {
+//     ev.preventDefault();
+// };
+
+// const drop = (ev) => {
+//     ev.preventDefault();
+
+//     let data = ev.dataTransfer.getData("text");
+//     let SkillBrasilFinal = objetos.find(brasil => {
+//         return brasil.id == data
+//     });
+
+//     resultSkillBrasil += SkillBrasilFinal.precio;
+
+//     skillBrasil.innerHTML = `${resultSkillBrasil} %`;
+// };
+
 
