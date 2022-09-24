@@ -1,83 +1,85 @@
 
-let totalCarrito1 = document.getElementById("totalCarrito1");
-let precioTotal1 = 0;
-totalCarrito1.innerHTML = `${precioTotal1} €`;
+// Resultado de las habilidades de los jugadores de España
+
+let skillSpain = document.getElementById("skillSpain");
+let resultSkillSpain = 0;
+skillSpain.innerHTML = `${resultSkillSpain} %`;
 
 //Declaramos el objeto
 // Jugadores de la selección Epañola.
 
-let objetos1 = [
+let playerSkill = [
     {
         id: "unaisimon",
-        precio: 8
+        playerSkillSpain: 8
     },
     {
         id: "robertsanchez",
-        precio: 6
+        playerSkillSpain: 6
     },
     {
         id: "azpilizcueta",
-        precio: 9
+        playerSkillSpain: 9
     },
     {
         id: "ericgarcia",
-        precio: 7
+        playerSkillSpain: 7
     },
     {
         id: "jordialba",
-        precio: 9
+        playerSkillSpain: 9
     },
     {
         id: "laporte",
-        precio: 5
+        playerSkillSpain: 5
     },
     {
         id: "pautorres",
-        precio: 7
+        playerSkillSpain: 7
     },
     {
         id: "gavi",
-        precio: 8
+        playerSkillSpain: 8
     },
     {
         id: "kike",
-        precio: 6
+        playerSkillSpain: 6
     },
     {
         id: "marcosllorente",
-        precio: 8
+        playerSkillSpain: 8
     },
     {
         id: "pedri",
-        precio: 9
+        playerSkillSpain: 9
     },
     {
         id: "rodri",
-        precio: 5
+        playerSkillSpain: 5
     },
     {
         id: "sergibusquets",
-        precio: 9
+        playerSkillSpain: 9
     },
     {
         id: "daniolmo",
-        precio: 7
+        playerSkillSpain: 7
     },
     {
         id: "ansufati",
-        precio: 6
+        playerSkillSpain: 6
     },
     {
         id: "ferrantorres",
-        precio: 7
+        playerSkillSpain: 7
     },
     {
         id: "morata",
-        precio: 8
+        playerSkillSpain: 8
     },
     {
         id: "sarabia",
-        precio: 6
+        playerSkillSpain: 6
     }
 ];
 
@@ -94,23 +96,44 @@ let objetos1 = [
     const drop = (ev) => {
         ev.preventDefault();
         let data = ev.dataTransfer.getData("text");
-        // ev.target.appendChild(document.getElementById(data));
         
-        let objetoDeseo = objetos1.find(objeto => {
+     
+
+        // let objetoDeseo = objetos.find(objeto => {
+        //     return objeto.id == data
+        // });
+    
+        // precioTotal += objetoDeseo.precio;
+    
+        // totalCarrito.innerHTML = `${precioTotal} €`;
+   
+
+        let SkillSpainFinal = playerSkill.find(objeto => {
             return objeto.id == data
         });
     
-        precioTotal1 += objetoDeseo.precio;
+        resultSkillSpain += SkillSpainFinal.playerSkillSpain;
     
-        totalCarrito1.innerHTML = `${precioTotal1} €`;
+        skillSpain.innerHTML = `${resultSkillSpain} %`;
     };
 
+
+// Resultado de las habilidades de los jugadores de Brasil
+
+    // let skillBrasil = document.getElementById("skillBrasil");
+    // let resultSkillBrasil = 0;
+    // skillBrasil.innerHTML = `${resultSkillBrasil} %`;
+
+
+
 // -------------------------
-// let totalCarrito2 = document.getElementById("totalCarrito1");
+
+// let totalCarrito2 = document.getElementById("totalCarrito2");
 // let precioTotal2 = 0;
-// totalCarrito2.innerHTML = `${precioTotal} €`;
-// ];
-// // Jugadores de la selección Brasileña.
+// totalCarrito2.innerHTML = `${precioTotal2} %`;
+
+
+// Jugadores de la selección Brasileña.
 // let objetos2 = [
 // {
 //     id: "alisson",
@@ -183,5 +206,19 @@ let objetos1 = [
 // {
 //     id: "viniciusjr",
 //     precio: 9
-// },
+// }
+
 // ];
+
+
+// Falta adefinir las constantes
+
+// let SkillBrasilFinal = objetos2.find(objetoBrasil => {
+//     return objetoBrasil.id == data
+// });
+
+// resultSkillBrasil += SkillBrasilFinal.precio;
+
+// skillBrasil.innerHTML = `${resultSkillBrasil} %`;
+// };
+
