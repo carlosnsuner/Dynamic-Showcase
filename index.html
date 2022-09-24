@@ -2,149 +2,189 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Showcase</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dynamic Showcase</title>
 
-    <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
 </head>
 
 <body>
 
-    <!-- Definimos la capa estantería general como "shelfving = estantería" -->
-    <!-- Definimos la capa estnate como shelf = estante -->
-    <!-- Definimos la capa contenedor estante -->
+        <!-- Definimos la capa estantería general como "albumFutbol" -->
+        <div class="albumFutbol">
 
-    <div class="shelving">
-        <div class="shelf">
-            <div class="containerShelf">
-                <table>
-                    <tr>
-                        <td><img src="img/unaisimon.jpg" id="unaisimon" class="imagenDisplay" alt="Unai Simon"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/robertsanchez.jpg" id="robertsanchez" class="imagenDisplay"
-                                alt="Roberto Sanchez" draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/azpilizcueta.jpg" id="azpilizcueta" class="imagenDisplay" alt="Azpilizcueta"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/ericgarcia.jpg" id="ericgarcia" class="imagenDisplay" alt="Eric García"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/jordialba.jpg" id="jordialba" class="imagenDisplay" alt="Jordi Alba"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/laporte.jpg" id="laporte" class="imagenDisplay" alt="Laporte" draggable="true"
-                                ondragstart="drag(event)" /></td>
-                        <td><img src="img/pautorres.jpg" id="pautorres" class="imagenDisplay" alt="Pau Torres"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/gavi.jpg" id="gavi" class="imagenDisplay" alt="Gavi" draggable="true"
-                                ondragstart="drag(event)" /></td>
-                        <td><img src="img/koke.jpg" id="kike" class="imagenDisplay" alt="Kike" draggable="true"
-                                ondragstart="drag(event)" /></td>
-                    </tr>
-                    <!-- Separador de filas -->
-                    <tr class="espaceTable"></tr>
-                    <tr>
-                        <td><img src="img/marcosllorente.jpg" id="marcosllorente" class="imagenDisplay"
-                                alt="Marcos Llorente" draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/pedri.jpg" id="pedri" class="imagenDisplay" alt="Pedri" draggable="true"
-                                ondragstart="drag(event)" /></td>
-                        <td><img src="img/rodri.jpg" id="rodri" class="imagenDisplay" alt="Rodri" draggable="true"
-                                ondragstart="drag(event)" /></td>
-                        <td><img src="img/sergibusquets.jpg" id="sergibusquets" class="imagenDisplay"
-                                alt="Sergi Busquets" draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/daniolmo.jpg" id="daniolmo" class="imagenDisplay" alt="Dano Olmo"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/ansufati.jpg" id="ansufati" class="imagenDisplay" alt="Ansu Fati"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/ferrantorres.jpg" id="ferrantorres" class="imagenDisplay" alt="Ferran Torres"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/morata.jpg" id="morata" class="imagenDisplay" alt="Morata" draggable="true"
-                                ondragstart="drag(event)" /></td>
-                        <td><img src="img/sarabia.jpg" id="sarabia" class="imagenDisplay" alt="Sarabia" draggable="true"
-                                ondragstart="drag(event)" /></td>
-                    </tr>
-                    <tr class="espaceTable"></tr>
-                    <tr>
-                        <td><img src="img/alisson.jpg" id="alisson" class="imagenDisplay" alt="Alisson" draggable="true"
-                                ondragstart="drag(event)" /></td>
-                        <td><img src="img/ederson.jpg" id="ederson" class="imagenDisplay" alt="Ederson" draggable="true"
-                                ondragstart="drag(event)" /></td>
-                        <td><img src="img/alexsandro.jpg" id="alexsandro" class="imagenDisplay" alt="Alexsandro"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/danilo.jpg" id="danilo" class="imagenDisplay" alt="Danilo" draggable="true"
-                                ondragstart="drag(event)" /></td>
-                        <td><img src="img/edermilitao.jpg" id="edermilitao" class="imagenDisplay" alt="Eder Militao"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/marquinhos.jpg" id="marquinhos" class="imagenDisplay" alt="Marquinhos"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/thiagosilva.jpg" id="thiagosilva" class="imagenDisplay" alt="Thiago Silva"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/casemiro.jpg" id="casemiro" class="imagenDisplay" alt="Casemiro"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/philippecoutinho.jpg" id="philippecoutinho" class="imagenDisplay"
-                                alt="Philippe Coutnho" draggable="true" ondragstart="drag(event)" /></td>
+                <!-- Definimos la capa eEquipos de futbol -->
+                <div class="footballTeams">
 
-                    </tr>
-                    <tr class="espaceTable"></tr>
-                    <tr>
-                        <td><img src="img/fabinho.jpg" id="fabinho" class="imagenDisplay" alt="Fabinho" draggable="true"
-                                ondragstart="drag(event)" /></td>
-                        <td><img src="img/fred.jpg" id="fred" class="imagenDisplay" alt="Fred" draggable="true"
-                                ondragstart="drag(event)" /></td>
-                        <td><img src="img/lucaspaqueta.jpg" id="lucaspaqueta" class="imagenDisplay" alt="Lucas Paqueta"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/antony.jpg" id="antony" class="imagenDisplay" alt="Antony" draggable="true"
-                                ondragstart="drag(event)" /></td>
-                        <td><img src="img/gabrieljesus.jpg" id="gabrieljesus" class="imagenDisplay" alt="Gabriel Jesús"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/neymarjr.jpg" id="neymarjr" class="imagenDisplay" alt="Neymar JR"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/raphinha.jpg" id="raphinha" class="imagenDisplay" alt="Raphina"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/richarlison.jpg" id="richarlison" class="imagenDisplay" alt="Richar Lison"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                        <td><img src="img/viniciusjr.jpg" id="viniciusjr" class="imagenDisplay" alt="Vinicius JR"
-                                draggable="true" ondragstart="drag(event)" /></td>
-                    </tr>
-                    <tr class="espaceTable"></tr>
-                </table>
+                        <!-- Definimos la capa  jugadores -->
+                        <div class="players">
+                                <table>
+                                        <tr>
+                                                <td><img src="img/unaisimon.jpg" id="unaisimon" class="imagenDisplay"
+                                                                alt="Unai Simon" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/robertsanchez.jpg" id="robertsanchez"
+                                                                class="imagenDisplay" alt="Roberto Sanchez"
+                                                                draggable="true" ondragstart="drag(event)" /></td>
+                                                <td><img src="img/azpilizcueta.jpg" id="azpilizcueta"
+                                                                class="imagenDisplay" alt="Azpilizcueta"
+                                                                draggable="true" ondragstart="drag(event)" /></td>
+                                                <td><img src="img/ericgarcia.jpg" id="ericgarcia" class="imagenDisplay"
+                                                                alt="Eric García" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/jordialba.jpg" id="jordialba" class="imagenDisplay"
+                                                                alt="Jordi Alba" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/laporte.jpg" id="laporte" class="imagenDisplay"
+                                                                alt="Laporte" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/pautorres.jpg" id="pautorres" class="imagenDisplay"
+                                                                alt="Pau Torres" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/gavi.jpg" id="gavi" class="imagenDisplay" alt="Gavi"
+                                                                draggable="true" ondragstart="drag(event)" /></td>
+                                                <td><img src="img/koke.jpg" id="kike" class="imagenDisplay" alt="Kike"
+                                                                draggable="true" ondragstart="drag(event)" /></td>
+                                        </tr>
+                                        <!-- Separador de filas -->
+                                        <tr class="espaceTable"></tr>
+                                        <tr>
+                                                <td><img src="img/marcosllorente.jpg" id="marcosllorente"
+                                                                class="imagenDisplay" alt="Marcos Llorente"
+                                                                draggable="true" ondragstart="drag(event)" /></td>
+                                                <td><img src="img/pedri.jpg" id="pedri" class="imagenDisplay"
+                                                                alt="Pedri" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/rodri.jpg" id="rodri" class="imagenDisplay"
+                                                                alt="Rodri" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/sergibusquets.jpg" id="sergibusquets"
+                                                                class="imagenDisplay" alt="Sergi Busquets"
+                                                                draggable="true" ondragstart="drag(event)" /></td>
+                                                <td><img src="img/daniolmo.jpg" id="daniolmo" class="imagenDisplay"
+                                                                alt="Dano Olmo" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/ansufati.jpg" id="ansufati" class="imagenDisplay"
+                                                                alt="Ansu Fati" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/ferrantorres.jpg" id="ferrantorres"
+                                                                class="imagenDisplay" alt="Ferran Torres"
+                                                                draggable="true" ondragstart="drag(event)" /></td>
+                                                <td><img src="img/morata.jpg" id="morata" class="imagenDisplay"
+                                                                alt="Morata" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/sarabia.jpg" id="sarabia" class="imagenDisplay"
+                                                                alt="Sarabia" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                        </tr>
+                                        <tr class="espaceTable"></tr>
+                                        <tr>
+                                                <td><img src="img/alisson.jpg" id="alisson" class="imagenDisplay"
+                                                                alt="Alisson" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/ederson.jpg" id="ederson" class="imagenDisplay"
+                                                                alt="Ederson" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/alexsandro.jpg" id="alexsandro" class="imagenDisplay"
+                                                                alt="Alexsandro" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/danilo.jpg" id="danilo" class="imagenDisplay"
+                                                                alt="Danilo" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/edermilitao.jpg" id="edermilitao"
+                                                                class="imagenDisplay" alt="Eder Militao"
+                                                                draggable="true" ondragstart="drag(event)" /></td>
+                                                <td><img src="img/marquinhos.jpg" id="marquinhos" class="imagenDisplay"
+                                                                alt="Marquinhos" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/thiagosilva.jpg" id="thiagosilva"
+                                                                class="imagenDisplay" alt="Thiago Silva"
+                                                                draggable="true" ondragstart="drag(event)" /></td>
+                                                <td><img src="img/casemiro.jpg" id="casemiro" class="imagenDisplay"
+                                                                alt="Casemiro" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/philippecoutinho.jpg" id="philippecoutinho"
+                                                                class="imagenDisplay" alt="Philippe Coutnho"
+                                                                draggable="true" ondragstart="drag(event)" /></td>
 
-                <!-- <div class="containerItem"><img src="img/pedri.jpg" class="imagenDisplay" /></div>
-                <div class="containerItem"><img src="img/pedri.jpg" class="imagenDisplay" /></div>
-                <div class="containerItem"><img src="img/pedri.jpg" class="imagenDisplay" /></div> -->
-            </div>
+                                        </tr>
+                                        <tr class="espaceTable"></tr>
+                                        <tr>
+                                                <td><img src="img/fabinho.jpg" id="fabinho" class="imagenDisplay"
+                                                                alt="Fabinho" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/fred.jpg" id="fred" class="imagenDisplay" alt="Fred"
+                                                                draggable="true" ondragstart="drag(event)" /></td>
+                                                <td><img src="img/lucaspaqueta.jpg" id="lucaspaqueta"
+                                                                class="imagenDisplay" alt="Lucas Paqueta"
+                                                                draggable="true" ondragstart="drag(event)" /></td>
+                                                <td><img src="img/antony.jpg" id="antony" class="imagenDisplay"
+                                                                alt="Antony" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/gabrieljesus.jpg" id="gabrieljesus"
+                                                                class="imagenDisplay" alt="Gabriel Jesús"
+                                                                draggable="true" ondragstart="drag(event)" /></td>
+                                                <td><img src="img/neymarjr.jpg" id="neymarjr" class="imagenDisplay"
+                                                                alt="Neymar JR" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/raphinha.jpg" id="raphinha" class="imagenDisplay"
+                                                                alt="Raphina" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                                <td><img src="img/richarlison.jpg" id="richarlison"
+                                                                class="imagenDisplay" alt="Richar Lison"
+                                                                draggable="true" ondragstart="drag(event)" /></td>
+                                                <td><img src="img/viniciusjr.jpg" id="viniciusjr" class="imagenDisplay"
+                                                                alt="Vinicius JR" draggable="true"
+                                                                ondragstart="drag(event)" /></td>
+                                        </tr>
+                                        <tr class="espaceTable"></tr>
+                                </table>
+
+                        </div>
+                </div>
         </div>
-    </div>
 
-    <div class="basket">
-        <div class="tittleFinal">
-            <h2>Copa Mundial de la FIFA Catar 2022™</h2>
-            <h3>Final</h3>
+        <!-- Definimos la capa contenido del resultado" -->
+        <div class="finalScore">
+                <div class="tittleFinal">
+                        <h2>Copa Mundial de la FIFA Catar 2022™</h2>
+                        <h3>Final</h3>
+                </div>
+                <div class="logosSelection">
+                        <table>
+                                <tr>
+                                        <td class="textlogo">España</td>
+                                        <td class="textlogo">Brasil</td>
+
+                                </tr>
+                                <tr>
+                                        <td><img src="img/spainscudo.jpg" class="imagenLogoSelection" /></td>
+                                        <td><img src="img/brasilescudo.jpg" class="imagenLogoSelection" /></td>
+                                </tr>
+                        </table>
+                </div>
+                
+                <div class="footballField">
+                        <img src="img/camposup.jpg" id="contenedor1" class="futbolBackground" ondrop="drop(event)"
+                                ondragover="allowDrop(event)" />
+                        <img src="img/campoinf.jpg" id="contenedor2" class="futbolBackground" ondrop="drop(event)"
+                                ondragover="allowDrop(event)" />
+                </div>
+                <div id="totalCarrito" class="skillsCart">0</div>
         </div>
-        <div class="logosSelection">
-            <table>
-                <tr>
-                    <td class="textlogo">España</td>
-                    <td class="textlogo">Brasil</td>
 
-                </tr>
-                <tr>
-                    <td><img src="img/spainscudo.jpg" class="imagenLogoSelection" /></td>
-                    <td><img src="img/brasilescudo.jpg" class="imagenLogoSelection" /></td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="basket">
-            <div class="containerBasket"> 
+        <!-- <div class="basket"> -->
+        <!-- <div class="containerBasket">
                 <div class="actualCart">
-                    <img src="img/camposup.jpg" id="contenedor1" class="futbolBackground" ondrop="drop(event)"
-                        ondragover="allowDrop(event)" />
-                    <img src="img/campoinf.jpg" id="contenedor2" class="futbolBackground" ondrop="drop(event)"
-                        ondragover="allowDrop(event)" />
+                        <img src="img/camposup.jpg" id="contenedor1" class="futbolBackground" ondrop="drop(event)"
+                                ondragover="allowDrop(event)" />
+                        <img src="img/campoinf.jpg" id="contenedor2" class="futbolBackground" ondrop="drop(event)"
+                                ondragover="allowDrop(event)" />
                 </div>
                 <div id="totalCarrito" class="priceCart"></div>
-            </div>
-        </div>
-    </div>
+        </div> -->
+
 
 </body>
