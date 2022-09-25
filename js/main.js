@@ -83,9 +83,10 @@ let playerSkillSp = [
     }
 
 ];
+
     const drag = (ev) => {
         ev.dataTransfer.setData("text", ev.target.id);
-    
+
         // ("arrastrando...", ev.target.id);
     };
 
@@ -97,8 +98,10 @@ let playerSkillSp = [
         ev.preventDefault();
 
         let data = ev.dataTransfer.getData("text");
-        let FinalSp = playerSkillSp.find(objeto => {
-            return objeto.id == data
+        // ev.target.appendChild(document.getElementById(data));
+
+        let FinalSp = playerSkillSp.find(Spain => {
+            return Spain.id == data
         });
     
         resultSkillSpain += FinalSp.playerSkillSpain;
