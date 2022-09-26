@@ -6,7 +6,7 @@ body {
     /* width: 100vw; */
 
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
 }
 
 .albumFutbol {
@@ -101,6 +101,8 @@ body {
 
 }
 
+
+
 .footballField{
 
 
@@ -140,5 +142,4 @@ body {
     background-color:#005BBB;
     box-shadow: 2px 2px 10px #999;
     }
-
 
