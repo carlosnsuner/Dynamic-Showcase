@@ -226,7 +226,7 @@ let playerSkills = [
 
         console.log(Final.Nacionalidad);
 
-        // //aqui va el if..
+        // Definimos el if...
 
              if (Final.Nacionalidad == "Spain") {
 
@@ -236,19 +236,16 @@ let playerSkills = [
 
                 skillSpain.innerHTML = `${resultSkillSpain} %`;
 
-
-                
-
                 //  block of code to be executed if condition1 is true
+
               } else if (Final.Nacionalidad == "Brazil") {
 
                 console.log("Jugador brasileño");
 
-                return (playerSkill);
+                resultSkillBrasil += Final.playerSkill
 
-            
+                skillBrasil.innerHTML = `${resultSkillBrasil} %`;
 
-                //  block of code to be executed if the condition1 is false and condition2 is true
               } 
 
 
