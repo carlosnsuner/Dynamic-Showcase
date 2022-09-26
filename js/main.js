@@ -18,75 +18,93 @@ skillBrasil.innerHTML = `${resultSkillBrasil} %`;
 let playerSkillSp = [
     {
         idSp: "unaisimon",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "robertsanchez",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "azpilizcueta",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "ericgarcia",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "jordialba",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "laporte",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "pautorres",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "gavi",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "kike",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "marcosllorente",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "pedri",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "rodri",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "sergibusquets",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "daniolmo",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "ansufati",
-        playerSkillSpain: 6
+        playerSkillSpain: 6,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "ferrantorres",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "morata",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     },
     {
         idSp: "sarabia",
-        playerSkillSpain: 8
+        playerSkillSpain: 8,
+        NacionalidadSp: "Spain"
     }
 
 ];
@@ -98,93 +116,93 @@ let playerSkillBr = [
     {
         idBr: "alisson",
         playerSkillBrasil: 8,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
     {
         idBr: "ederson",
         playerSkillBrasil: 5,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
     {
         idBr: "alexsandro",
         playerSkillBrasil: 7,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
     {
         idBr: "danilo",
         playerSkillBrasil: 5,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },   
     {
         idBr: "edermilitao",
         playerSkillBrasil: 7,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
 
     {
         idBr: "marquinhos",
         playerSkillBrasil: 7,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
     {
         idBr: "thiagosilva",
         playerSkillBrasil: 9,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
     {
         idBr: "casemiro",
         playerSkillBrasil: 9,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
     {
         idBr: "philippecoutinho",
         playerSkillBrasil: 8,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
     {
         idBr: "fabinho",
         playerSkillBrasil: 7,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },  
     {
         idBr: "fred",
         playerSkillBrasil: 8,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
     {
         idBr: "lucaspaqueta",
         playerSkillBrasil: 6,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
     {
         idBr: "antony",
         playerSkillBrasil: 7,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
     {
         idBr: "gabrieljesus",
         playerSkillBrasil: 6,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
     {
         idBr: "neymarjr",
         playerSkillBrasil: 9,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
     {
         idBr: "raphinha",
         playerSkillBrasil: 7,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
     {
         idBr: "richarlison",
         playerSkillBrasil: 6,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     },
     {
         idBr: "viniciusjr",
         playerSkillBrasil: 9,
-        Nacionalidad: "Brazil"
+        NacionalidadBr: "Brazil"
     }
     
     ];
