@@ -5,6 +5,7 @@ let skillSpain = document.getElementById("skillSpain");
 let resultSkillSpain = 0;
 skillSpain.innerHTML = `${resultSkillSpain} %`;
 
+
 // Resultado de las habilidades de los jugadores de Brasil
 
 let skillBrasil = document.getElementById("skillBrasil");
@@ -107,8 +108,8 @@ let playerSkills = [
         Nacionalidad: "Spain"
     },
 
-// Declaramos el objeto
-// Jugadores de la selección Brasileña.
+    // Declaramos el objeto
+    // Jugadores de la selección Brasileña.
 
     {
         id: "alisson",
@@ -129,7 +130,7 @@ let playerSkills = [
         id: "danilo",
         playerSkill: 5,
         Nacionalidad: "Brazil"
-    },   
+    },
     {
         id: "edermilitao",
         playerSkill: 7,
@@ -160,7 +161,7 @@ let playerSkills = [
         id: "fabinho",
         playerSkill: 7,
         Nacionalidad: "Brazil"
-    },  
+    },
     {
         id: "fred",
         playerSkill: 8,
@@ -201,56 +202,58 @@ let playerSkills = [
         playerSkill: 9,
         Nacionalidad: "Brazil"
     }
-    
-    ];
-    
-    const drag = (ev) => {
-        ev.dataTransfer.setData("text", ev.target.id);
 
-        // ("arrastrando...", ev.target.id);
-    };
+];
 
-    const allowDrop = (ev) => {
-        ev.preventDefault();
-    };
-    
-    const drop = (ev) => {
-        ev.preventDefault();
+const drag = (ev) => {
+    ev.dataTransfer.setData("text", ev.target.id);
 
-        let data = ev.dataTransfer.getData("text");
-        // ev.target.appendChild(document.getElementById(data));
+    // ("arrastrando...", ev.target.id);
+};
 
-        let Final = playerSkills.find(SpainBrasil => {
-            return SpainBrasil.id == data
-        });
+const allowDrop = (ev) => {
+    ev.preventDefault();
+};
 
-        console.log(Final.Nacionalidad);
+const drop = (ev) => {
+    ev.preventDefault();
 
-        // Definimos el if...
+    let data = ev.dataTransfer.getData("text");
+    // ev.target.appendChild(document.getElementById(data));
 
-             if (Final.Nacionalidad == "Spain") {
+    let Final = playerSkills.find(SpainBrasil => {
+        return SpainBrasil.id == data
+    });
 
-                console.log("Jugador español");
-                
-                resultSkillSpain += Final.playerSkill
+    console.log(Final.Nacionalidad);
 
-                skillSpain.innerHTML = `${resultSkillSpain} %`;
+    // Definimos el if...
 
-                //  block of code to be executed if condition1 is true
+    if (Final.Nacionalidad == "Spain") {
 
-              } else if (Final.Nacionalidad == "Brazil") {
+        console.log("Jugador español");
 
-                console.log("Jugador brasileño");
+        resultSkillSpain += Final.playerSkill
 
-                resultSkillBrasil += Final.playerSkill
-
-                skillBrasil.innerHTML = `${resultSkillBrasil} %`;
-
-              } 
+        skillSpain.innerHTML = `${resultSkillSpain} %`;
 
 
-        // resultSkillSpain += Final.playerSkillSpain;
-    
-        // skillSpain.innerHTML = `${resultSkillSpain} %`;
-    };
+        //  block of code to be executed if condition1 is true
+
+    } else if (Final.Nacionalidad == "Brazil") {
+
+        console.log("Jugador brasileño");
+
+        resultSkillBrasil += Final.playerSkill
+
+        skillBrasil.innerHTML = `${resultSkillBrasil} %`;
+
+    }
+
+
+    // resultSkillSpain += Final.playerSkillSpain;
+
+    // skillSpain.innerHTML = `${resultSkillSpain} %`;
+
+};
 
