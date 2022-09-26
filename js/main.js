@@ -15,200 +15,197 @@ skillBrasil.innerHTML = `${resultSkillBrasil} %`;
 // Declaramos el objeto
 // Jugadores de la selección Epañola.
 
-let playerSkillSp = [
+let playerSkills = [
     {
-        idSp: "unaisimon",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "unaisimon",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "robertsanchez",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "robertsanchez",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "azpilizcueta",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "azpilizcueta",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "ericgarcia",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "ericgarcia",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "jordialba",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "jordialba",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "laporte",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "laporte",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "pautorres",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "pautorres",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "gavi",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "gavi",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "kike",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "kike",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "marcosllorente",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "marcosllorente",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "pedri",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "pedri",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "rodri",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "rodri",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "sergibusquets",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "sergibusquets",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "daniolmo",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "daniolmo",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "ansufati",
-        playerSkillSpain: 6,
-        NacionalidadSp: "Spain"
+        id: "ansufati",
+        playerSkill: 6,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "ferrantorres",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "ferrantorres",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "morata",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
+        id: "morata",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
     },
     {
-        idSp: "sarabia",
-        playerSkillSpain: 8,
-        NacionalidadSp: "Spain"
-    }
+        id: "sarabia",
+        playerSkill: 8,
+        Nacionalidad: "Spain"
+    },
 
-];
-
-//Declaramos el objeto
+// Declaramos el objeto
 // Jugadores de la selección Brasileña.
 
-let playerSkillBr = [
     {
-        idBr: "alisson",
-        playerSkillBrasil: 8,
-        NacionalidadBr: "Brazil"
+        id: "alisson",
+        playerSkill: 8,
+        Nacionalidad: "Brazil"
     },
     {
-        idBr: "ederson",
-        playerSkillBrasil: 5,
-        NacionalidadBr: "Brazil"
+        id: "ederson",
+        playerSkill: 5,
+        Nacionalidad: "Brazil"
     },
     {
-        idBr: "alexsandro",
-        playerSkillBrasil: 7,
-        NacionalidadBr: "Brazil"
+        id: "alexsandro",
+        playerSkill: 7,
+        Nacionalidad: "Brazil"
     },
     {
-        idBr: "danilo",
-        playerSkillBrasil: 5,
-        NacionalidadBr: "Brazil"
+        id: "danilo",
+        playerSkill: 5,
+        Nacionalidad: "Brazil"
     },   
     {
-        idBr: "edermilitao",
-        playerSkillBrasil: 7,
-        NacionalidadBr: "Brazil"
+        id: "edermilitao",
+        playerSkill: 7,
+        Nacionalidad: "Brazil"
     },
 
     {
-        idBr: "marquinhos",
-        playerSkillBrasil: 7,
-        NacionalidadBr: "Brazil"
+        id: "marquinhos",
+        playerSkill: 7,
+        Nacionalidad: "Brazil"
     },
     {
-        idBr: "thiagosilva",
-        playerSkillBrasil: 9,
-        NacionalidadBr: "Brazil"
+        id: "thiagosilva",
+        playerSkill: 9,
+        Nacionalidad: "Brazil"
     },
     {
-        idBr: "casemiro",
-        playerSkillBrasil: 9,
-        NacionalidadBr: "Brazil"
+        id: "casemiro",
+        playerSkill: 9,
+        Nacionalidad: "Brazil"
     },
     {
-        idBr: "philippecoutinho",
-        playerSkillBrasil: 8,
-        NacionalidadBr: "Brazil"
+        id: "philippecoutinho",
+        playerSkill: 8,
+        Nacionalidad: "Brazil"
     },
     {
-        idBr: "fabinho",
-        playerSkillBrasil: 7,
-        NacionalidadBr: "Brazil"
+        id: "fabinho",
+        playerSkill: 7,
+        Nacionalidad: "Brazil"
     },  
     {
-        idBr: "fred",
-        playerSkillBrasil: 8,
-        NacionalidadBr: "Brazil"
+        id: "fred",
+        playerSkill: 8,
+        Nacionalidad: "Brazil"
     },
     {
-        idBr: "lucaspaqueta",
-        playerSkillBrasil: 6,
-        NacionalidadBr: "Brazil"
+        id: "lucaspaqueta",
+        playerSkill: 6,
+        Nacionalidad: "Brazil"
     },
     {
-        idBr: "antony",
-        playerSkillBrasil: 7,
-        NacionalidadBr: "Brazil"
+        id: "antony",
+        playerSkill: 7,
+        Nacionalidad: "Brazil"
     },
     {
-        idBr: "gabrieljesus",
-        playerSkillBrasil: 6,
-        NacionalidadBr: "Brazil"
+        id: "gabrieljesus",
+        playerSkill: 6,
+        Nacionalidad: "Brazil"
     },
     {
-        idBr: "neymarjr",
-        playerSkillBrasil: 9,
-        NacionalidadBr: "Brazil"
+        id: "neymarjr",
+        playerSkill: 9,
+        Nacionalidad: "Brazil"
     },
     {
-        idBr: "raphinha",
-        playerSkillBrasil: 7,
-        NacionalidadBr: "Brazil"
+        id: "raphinha",
+        playerSkill: 7,
+        Nacionalidad: "Brazil"
     },
     {
-        idBr: "richarlison",
-        playerSkillBrasil: 6,
-        NacionalidadBr: "Brazil"
+        id: "richarlison",
+        playerSkill: 6,
+        Nacionalidad: "Brazil"
     },
     {
-        idBr: "viniciusjr",
-        playerSkillBrasil: 9,
-        NacionalidadBr: "Brazil"
+        id: "viniciusjr",
+        playerSkill: 9,
+        Nacionalidad: "Brazil"
     }
     
     ];
     
     const drag = (ev) => {
-        ev.dataTransfer.setData("text", ev.target.idSp);
+        ev.dataTransfer.setData("text", ev.target.id);
 
         // ("arrastrando...", ev.target.id);
     };
@@ -223,12 +220,40 @@ let playerSkillBr = [
         let data = ev.dataTransfer.getData("text");
         // ev.target.appendChild(document.getElementById(data));
 
-        let FinalSp = playerSkillSp.find(Spain => {
-            return Spain.idSp == data
+        let Final = playerSkills.find(SpainBrasil => {
+            return SpainBrasil.id == data
         });
+
+        console.log(Final.Nacionalidad);
+
+        // //aqui va el if..
+
+             if (Final.Nacionalidad == "Spain") {
+
+                console.log("Jugador español");
+                
+                resultSkillSpain += Final.playerSkill
+
+                skillSpain.innerHTML = `${resultSkillSpain} %`;
+
+
+                
+
+                //  block of code to be executed if condition1 is true
+              } else if (Final.Nacionalidad == "Brazil") {
+
+                console.log("Jugador brasileño");
+
+                return (playerSkill);
+
+            
+
+                //  block of code to be executed if the condition1 is false and condition2 is true
+              } 
+
+
+        // resultSkillSpain += Final.playerSkillSpain;
     
-        resultSkillSpain += FinalSp.playerSkillSpain;
-    
-        skillSpain.innerHTML = `${resultSkillSpain} %`;
+        // skillSpain.innerHTML = `${resultSkillSpain} %`;
     };
 
