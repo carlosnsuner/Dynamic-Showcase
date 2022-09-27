@@ -13,7 +13,7 @@ let resultSkillBrasil = 0;
 skillBrasil.innerHTML = `${resultSkillBrasil} %`;
 
 
-// Declaramos el objeto
+// Declaramos el objeto (playerSkills)
 // Jugadores de la selección Epañola.
 
 let playerSkills = [
@@ -108,7 +108,7 @@ let playerSkills = [
         Nacionalidad: "Spain"
     },
 
-    // Declaramos el objeto
+    // Declaramos el objeto (playerSkills)
     // Jugadores de la selección Brasileña.
 
     {
@@ -205,10 +205,10 @@ let playerSkills = [
 
 ];
 
-const drag = (ev) => {
-    ev.dataTransfer.setData("text", ev.target.id);
+// Función de arrastrar // ("arrastrando...", ev.target.id);
 
-    // ("arrastrando...", ev.target.id);
+const drag = (ev) => {
+    ev.dataTransfer.setData("text", ev.target.id); 
 };
 
 const allowDrop = (ev) => {
@@ -222,15 +222,19 @@ const drop = (ev) => {
 
     // ev.target.appendChild(document.getElementById(data));
 
+     // Definimos el if/else... para sumar las habilidades de cada selección en su ubicación determinada,
+    // Usamos la propiedad Spain y Brazil para llamar a la nacionalidad del jugador.
+    // El contador dehabilidades está a cero en un primer momento con la variable "let resultSkillSpain"
+    // A lavariable resultSkillSpain, le vamos a sumar la habilidad de cadajugador definida por Final.playerSkill
+    // Y mostramos en pantalla con "skillSpain.innerHTML" la suma de cada una de las habilidades.
+    // Idem para Brasil
+
+    
     let Final = playerSkills.find(SpainBrasil => {
         return SpainBrasil.id == data
     });
 
     console.log(Final.Nacionalidad);
-    
-
-    // Definimos el if... para sumar las habilidades en cada selección
-
 
     if (Final.Nacionalidad == "Spain") {
 
@@ -250,7 +254,7 @@ const drop = (ev) => {
         skillBrasil.innerHTML = `${resultSkillBrasil} %`;
 
     };
-
+};
 
     // // Diferenciar el campo de fútbol donde va cada jugador 
     
@@ -264,15 +268,15 @@ const drop = (ev) => {
 
     // skillSpain.innerHTML = `${resultSkillSpain} %`;
 
-};
+
 
  // Vaciar carrito
 
- let variableGlobal = 100;
- let skillSpain = document.getElementById("skillSpain");
+//  let variableGlobal = 100;
+//  let skillSpain = document.getElementById("skillSpain");
 
-    const vaciar = () => {
-    variableGlobal = 0;
-    skillSpain.innerHTML = `${variableGlobal}`;
-};
+//     const vaciar = () => {
+//     variableGlobal = 0;
+//     skillSpain.innerHTML = `${variableGlobal}`;
+// };
 
