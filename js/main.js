@@ -215,10 +215,12 @@ const allowDrop = (ev) => {
     ev.preventDefault();
 };
 
-const drop = (ev) => {
+const drop = (ev, equipo) => {
     ev.preventDefault();
 
     let data = ev.dataTransfer.getData("text");
+
+    console.log (equipo);
 
     // ev.target.appendChild(document.getElementById(data));
 
@@ -236,7 +238,7 @@ const drop = (ev) => {
 
     console.log(Final.Nacionalidad);
 
-    if (Final.Nacionalidad == "Spain") {
+    if (Final.Nacionalidad == "Spain" && equipo =="Spain") {
 
         console.log("Jugador español");
 
@@ -245,7 +247,7 @@ const drop = (ev) => {
         skillSpain.innerHTML = `${resultSkillSpain} %`;
 
 
-    } else if (Final.Nacionalidad == "Brazil") {
+    } else if (Final.Nacionalidad == "Brazil" && equipo =="Brazil") {
 
         console.log("Jugador brasileño");
 
@@ -255,6 +257,19 @@ const drop = (ev) => {
 
     };
 };
+
+
+
+// Función pulsador, al hacer click a reset, definimos los dos contadores de cada equipo a cero(resultSkillSpain,resultSkillBrasil)
+// Llamamos a la función de javascript desde html para que nos de el resultado a cero skillSpain.innerHTML y skillBrasil.innerHTML
+
+const pulsador = () => {
+    resultSkillSpain = 0;
+    resultSkillBrasil = 0;
+    skillSpain.innerHTML = `${resultSkillSpain}`;
+    skillBrasil.innerHTML = `${resultSkillBrasil}`;
+};
+
 
     // // Diferenciar el campo de fútbol donde va cada jugador 
     
@@ -267,16 +282,3 @@ const drop = (ev) => {
     // resultSkillSpain += Final.playerSkillSpain;
 
     // skillSpain.innerHTML = `${resultSkillSpain} %`;
-
-
-
- // Vaciar carrito
-
-//  let variableGlobal = 100;
-//  let skillSpain = document.getElementById("skillSpain");
-
-//     const vaciar = () => {
-//     variableGlobal = 0;
-//     skillSpain.innerHTML = `${variableGlobal}`;
-// };
-

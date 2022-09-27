@@ -28,7 +28,7 @@ body {
     justify-content: center;
 
 }
-
+/* definir la clase de los jugadores */
 .players {
 
     width: 54em;
@@ -75,11 +75,6 @@ body {
 
 .tittleFinal {
     text-align: center;
-}
-
-.logosAndButtons{
-   
-
 }
 
 /* definir la clase de los nombre de equipo */
