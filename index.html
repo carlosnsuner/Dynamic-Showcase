@@ -18,7 +18,7 @@
                 <!-- Definimos la capa Equipos de futbol -->
                 <div class="footballTeams">
 
-                        <!-- Definimos la capa  jugadores -->
+                        <!-- Definimos la capa jugadores -->
                         <div class="players">
                                 <table>
                                         <tr>
@@ -45,7 +45,7 @@
                                                                 ondragstart="drag(event)" /></td>
                                                 <td><img src="img/gavi.jpg" id="gavi" class="imagenDisplay" alt="Gavi"
                                                                 draggable="true" ondragstart="drag(event)" /></td>
-                                                <td><img src="img/koke.jpg" id="kike" class="imagenDisplay" alt="Kike"
+                                                <td><img src="img/koke.jpg" id="koke" class="imagenDisplay" alt="Kike"
                                                                 draggable="true" ondragstart="drag(event)" /></td>
                                         </tr>
                                         <!-- Separador de filas -->
@@ -146,6 +146,8 @@
                 </div>
         </div>
 
+
+
         <!-- Definimos la capa contenido del resultado" -->
         <div class="finalScore">
                 <div class="tittleFinal">
@@ -177,24 +179,28 @@
 
                 <div>
                         <!-- Parte superior del campo de fútbol/ Selección Española -->
+                        <!-- Creamos dentro de ondrop el evento y la llamada a "Spain" para indicarle en el if (Final.Nacionalidad == "Spain" && equipo =="Spain")
+                         donde van los jugadores de la seleccion española al arrastrar -->
 
                         <img src="img/camposup.jpg" id="CampoSup" class="futbolBackground" ondrop="drop(event,'Spain')"
                                 ondragover="allowDrop(event)" />
                 </div>
                 <div>
                         <!-- Parte inferior del campo de fútbol/ Selección Brasileña -->
+                        <!-- Creamos dentro de ondrop el evento y la llamada a "Brazil" para indicarle en el else if (Final.Nacionalidad == "Brazil" && equipo =="Brazil")
+                         donde van los jugadores de la seleccion española al arrastrar -->
 
                         <img src="img/campoinf.jpg" id="campoInf" class="futbolBackground" ondrop="drop(event,'Brazil')"
                                 ondragover="allowDrop(event)" />
                 </div>
 
-                <!-- Botón para reseterar los contadores -->
-                <div class="button" onclick="pulsador()">PULSAME!</div>
-                
+                <!-- Botón para reseterar los contadores con el evento onclick -->
+                <div class="button" onclick="pulsador()">Reset</div>
+
 
 
         </div>
 
 
         <script src="js/main.js"></script>
-<
+</body>

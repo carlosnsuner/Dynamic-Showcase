@@ -1,9 +1,10 @@
+
 body {
     margin: 0;
     padding: 0;
 
     height: 100vh;
-    /* width: 100vw; */
+    width: 100vw;
 
     display: flex;
     flex-direction:row;
@@ -21,13 +22,13 @@ body {
 
     width: 56em;
     height: 100vh;
-    /* background-color: crimson; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 
 }
+
 /* definir la clase de los jugadores */
 .players {
 
@@ -43,7 +44,7 @@ body {
 
 }
 
-/* definir la clase de la tabla */
+/* definir la clase de la tabla separadora de los jugadores */
 .espaceTable {
 
     height: 1.5em;
@@ -93,11 +94,6 @@ body {
 
     border: 0.2em solid black;
     box-shadow: 2px 2px 5px #999;
-
-}
-
-.footballField{
-
 
 }
 

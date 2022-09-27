@@ -226,8 +226,8 @@ const drop = (ev, equipo) => {
 
      // Definimos el if/else... para sumar las habilidades de cada selección en su ubicación determinada,
     // Usamos la propiedad Spain y Brazil para llamar a la nacionalidad del jugador.
-    // El contador dehabilidades está a cero en un primer momento con la variable "let resultSkillSpain"
-    // A lavariable resultSkillSpain, le vamos a sumar la habilidad de cadajugador definida por Final.playerSkill
+    // El contador de habilidades está a cero en un primer momento con la variable "let resultSkillSpain"
+    // A la variable resultSkillSpain, le vamos a sumar la habilidad de cadajugador definida por Final.playerSkill
     // Y mostramos en pantalla con "skillSpain.innerHTML" la suma de cada una de las habilidades.
     // Idem para Brasil
 
@@ -258,12 +258,11 @@ const drop = (ev, equipo) => {
     };
 };
 
-
-
-// Función pulsador, al hacer click a reset, definimos los dos contadores de cada equipo a cero(resultSkillSpain,resultSkillBrasil)
+// Función pulsador,creamos la constante "pusador" al hacer click a reset, definimos los dos contadores de cada equipo a cero(resultSkillSpain,resultSkillBrasil)
 // Llamamos a la función de javascript desde html para que nos de el resultado a cero skillSpain.innerHTML y skillBrasil.innerHTML
 
 const pulsador = () => {
+
     resultSkillSpain = 0;
     resultSkillBrasil = 0;
     skillSpain.innerHTML = `${resultSkillSpain}`;
