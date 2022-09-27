@@ -58,7 +58,7 @@ let playerSkills = [
         Nacionalidad: "Spain"
     },
     {
-        id: "kike",
+        id: "koke",
         playerSkill: 8,
         Nacionalidad: "Spain"
     },
@@ -219,6 +219,7 @@ const drop = (ev) => {
     ev.preventDefault();
 
     let data = ev.dataTransfer.getData("text");
+
     // ev.target.appendChild(document.getElementById(data));
 
     let Final = playerSkills.find(SpainBrasil => {
@@ -226,8 +227,10 @@ const drop = (ev) => {
     });
 
     console.log(Final.Nacionalidad);
+    
 
-    // Definimos el if...
+    // Definimos el if... para sumar las habilidades en cada selección
+
 
     if (Final.Nacionalidad == "Spain") {
 
@@ -238,8 +241,6 @@ const drop = (ev) => {
         skillSpain.innerHTML = `${resultSkillSpain} %`;
 
 
-        //  block of code to be executed if condition1 is true
-
     } else if (Final.Nacionalidad == "Brazil") {
 
         console.log("Jugador brasileño");
@@ -248,12 +249,30 @@ const drop = (ev) => {
 
         skillBrasil.innerHTML = `${resultSkillBrasil} %`;
 
-    }
+    };
 
+
+    // // Diferenciar el campo de fútbol donde va cada jugador 
+    
+    // if(Nacionalidad.Spain == ){
+    // // }
+
+    // // const pulsador =() =>
+    
 
     // resultSkillSpain += Final.playerSkillSpain;
 
     // skillSpain.innerHTML = `${resultSkillSpain} %`;
 
+};
+
+ // Vaciar carrito
+
+ let variableGlobal = 100;
+ let skillSpain = document.getElementById("skillSpain");
+
+    const vaciar = () => {
+    variableGlobal = 0;
+    skillSpain.innerHTML = `${variableGlobal}`;
 };
 
