@@ -32,13 +32,13 @@ ______________
 
 **Objetivo del "Dynamic Showcase":**
 
-Decido recrear dos alineaciones de selecciones de fútbol, en este caso; La selección española de fútbol en la parte superior y la selección brasileña de fútbol en la parte inferior.
+Decido recrear dos alineaciones de selecciones de fútbol, en este caso: La selección española de fútbol en la parte superior y la selección brasileña de fútbol en la parte inferior.
 
 **Funcionamiento:**
 
 La funcionalidad u objetivo es la de arrastrar mediante (drag) los once jugadores correspondientes a una alineación de fúltbol y soltar mediante (drop) a la parte correspondiente del terrero de fútbol.
 
-En este caso. Los 11 jugadores de la selección española irán en la parte superior del terreno de juego y los 11 jugadores de la selección brasileña, irán a la parte inferior del terreno de juego.
+En este caso, Los 11 jugadores de la selección española irán en la parte superior del terreno de juego y los 11 jugadores de la selección brasileña, irán a la parte inferior del terreno de juego.
 
 Cada vez que coloquemos un jugador en su terreno de juego correspondiente, nos irá sumando la habilidad asignada a dicho jugador. 
 
