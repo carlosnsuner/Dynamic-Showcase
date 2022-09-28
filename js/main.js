@@ -279,15 +279,3 @@ const pulsador = () => {
     skillBrasil.innerHTML = `${resultSkillBrasil}`;
 };
 
-
-    // // Diferenciar el campo de fútbol donde va cada jugador 
-    
-    // if(Nacionalidad.Spain == ){
-    // // }
-
-    // // const pulsador =() =>
-    
-
-    // resultSkillSpain += Final.playerSkillSpain;
-
-    // skillSpain.innerHTML = `${resultSkillSpain} %`;
