@@ -1,9 +1,15 @@
 
 // Resultado de las habilidades de los jugadores de España
 
+// Declaramos la variable "skillSpain" ("id" contador de habilidales de España en HTML)
 let skillSpain = document.getElementById("skillSpain");
+
+// Contador a cero
 let resultSkillSpain = 0;
+
+// La propiedad Element.innerHTML devuelve o establece el resultado.
 skillSpain.innerHTML = `${resultSkillSpain} %`;
+
 
 
 // Resultado de las habilidades de los jugadores de Brasil
@@ -13,7 +19,7 @@ let resultSkillBrasil = 0;
 skillBrasil.innerHTML = `${resultSkillBrasil} %`;
 
 
-// Declaramos el objeto (playerSkills)
+// Declaramos el objeto (playerSkills, de donde vamos a obtener el valor del 1-10 con playerSkill)
 // Jugadores de la selección Epañola.
 
 let playerSkills = [
@@ -24,17 +30,17 @@ let playerSkills = [
     },
     {
         id: "robertsanchez",
-        playerSkill: 8,
+        playerSkill: 6,
         Nacionalidad: "Spain"
     },
     {
         id: "azpilizcueta",
-        playerSkill: 8,
+        playerSkill: 9,
         Nacionalidad: "Spain"
     },
     {
         id: "ericgarcia",
-        playerSkill: 8,
+        playerSkill: 6,
         Nacionalidad: "Spain"
     },
     {
@@ -44,12 +50,12 @@ let playerSkills = [
     },
     {
         id: "laporte",
-        playerSkill: 8,
+        playerSkill: 7,
         Nacionalidad: "Spain"
     },
     {
         id: "pautorres",
-        playerSkill: 8,
+        playerSkill: 6,
         Nacionalidad: "Spain"
     },
     {
@@ -59,12 +65,12 @@ let playerSkills = [
     },
     {
         id: "koke",
-        playerSkill: 8,
+        playerSkill: 9,
         Nacionalidad: "Spain"
     },
     {
         id: "marcosllorente",
-        playerSkill: 8,
+        playerSkill: 7,
         Nacionalidad: "Spain"
     },
     {
@@ -74,27 +80,27 @@ let playerSkills = [
     },
     {
         id: "rodri",
-        playerSkill: 8,
-        Nacionalidad: "Spain"
-    },
-    {
-        id: "sergibusquets",
-        playerSkill: 8,
-        Nacionalidad: "Spain"
-    },
-    {
-        id: "daniolmo",
-        playerSkill: 8,
-        Nacionalidad: "Spain"
-    },
-    {
-        id: "ansufati",
         playerSkill: 6,
         Nacionalidad: "Spain"
     },
     {
+        id: "sergibusquets",
+        playerSkill: 7,
+        Nacionalidad: "Spain"
+    },
+    {
+        id: "daniolmo",
+        playerSkill: 7,
+        Nacionalidad: "Spain"
+    },
+    {
+        id: "ansufati",
+        playerSkill: 9,
+        Nacionalidad: "Spain"
+    },
+    {
         id: "ferrantorres",
-        playerSkill: 8,
+        playerSkill: 7,
         Nacionalidad: "Spain"
     },
     {
@@ -104,7 +110,7 @@ let playerSkills = [
     },
     {
         id: "sarabia",
-        playerSkill: 8,
+        playerSkill: 7,
         Nacionalidad: "Spain"
     },
 
@@ -113,7 +119,7 @@ let playerSkills = [
 
     {
         id: "alisson",
-        playerSkill: 8,
+        playerSkill: 7,
         Nacionalidad: "Brazil"
     },
     {
@@ -215,6 +221,7 @@ const allowDrop = (ev) => {
     ev.preventDefault();
 };
 
+// Definomos los parametros (event y equipo), los indicamos en cada imagen del campo de fútbol como Spain y Brazil)
 const drop = (ev, equipo) => {
     ev.preventDefault();
 
@@ -243,8 +250,11 @@ const drop = (ev, equipo) => {
         console.log("Jugador español");
 
         resultSkillSpain += Final.playerSkill
+        // a resultSkillSpain (que en origen es 0, le sumas las habilidades de cada jugador (playerSkill)).
 
         skillSpain.innerHTML = `${resultSkillSpain} %`;
+        // devuelve o establece la sintaxis HTML describiendo los descendientes del elemento, en este caso devuelve las habilidades
+        // de los jugadores que será igual a la suma de todas las habilidades de los jugadores arrastrados.
 
 
     } else if (Final.Nacionalidad == "Brazil" && equipo =="Brazil") {
