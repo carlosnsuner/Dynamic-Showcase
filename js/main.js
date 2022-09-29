@@ -243,11 +243,11 @@ const drop = (ev, equipo) => {
         return SpainBrasil.id == data
     });
 
-    console.log(Final.Nacionalidad);
+    // console.log(Final.Nacionalidad);
 
     if (Final.Nacionalidad == "Spain" && equipo =="Spain") {
 
-        console.log("Jugador español");
+    // console.log("Jugador español");
 
         resultSkillSpain += Final.playerSkill
         // a resultSkillSpain (que en origen es 0, le sumas las habilidades de cada jugador (playerSkill)).

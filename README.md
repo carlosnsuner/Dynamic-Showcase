@@ -32,11 +32,11 @@ ______________
 
 **Objetivo del "Dynamic Showcase":**
 
-Decido recrear dos alineaciones de selecciones de fútbol, en este caso: La selección española de fútbol en la parte superior y la selección brasileña de fútbol en la parte inferior.
+👉 Decido recrear dos alineaciones de selecciones de fútbol, en este caso: La selección española de fútbol en la parte superior y la selección brasileña de fútbol en la parte inferior.
 
-**Funcionamiento:**
+**Funcionamiento:** 🛠️
 
-La funcionalidad u objetivo es la de arrastrar mediante (drag) los once jugadores correspondientes a una alineación de fúltbol y soltar mediante (drop) a la parte correspondiente del terrero de fútbol.
+👉 La funcionalidad u objetivo es la de arrastrar mediante (drag) los once jugadores correspondientes a una alineación de fúltbol y soltar mediante (drop) a la parte correspondiente del terrero de fútbol.
 
 En este caso, Los 11 jugadores de la selección española irán en la parte superior del terreno de juego y los 11 jugadores de la selección brasileña, irán a la parte inferior del terreno de juego.
 
@@ -48,9 +48,9 @@ La suma total de los 11 jugadores, nos dará como resultado la habilidad total o
 
 ## Contenido:
 
-En el lateral izquierdo, he creado la tabla con las dos selecciones de fútbol.
+👉 En el lateral izquierdo, he creado la tabla con las dos selecciones de fútbol.⚽
 
-En la parte superior la selección española y en la parte inferior, la selección brasileña.
+En la parte superior la selección española y en la parte inferior, la selección brasileña.⚽
 
 Parte superior:
 
@@ -66,9 +66,9 @@ En le lateral derecho podemos ver los escudos de cada selección, los contadores
 
 ## Función Drag & Drop:
 
-Con la función Drag & Drop arrastramos y soltamos las imágenes de los jugadores hasta la posición del campo de fútbol.
+👉 Con la función Drag & Drop arrastramos y soltamos las imágenes de los jugadores hasta la posición del campo de fútbol.
 
-Como hemos dicho. Parte superior corresponde a la selección española y la parte inferior corresponde a la selección brasileña.
+Como hemos dicho. Parte superior corresponde a la selección española y la parte inferior corresponde a la selección brasileña.🎯
 
 Según arrastramos la fotografía del jugador, el contador irá aumentando su valor asignado (del 1 al 10) y sumando sucesivamente cada uno de los valores de cada jugador.
 
@@ -76,7 +76,7 @@ Según arrastramos la fotografía del jugador, el contador irá aumentando su va
 
 ## Botón Reset:
 
-Con el **botón Reset**, haremos un reseteado a cero de los contadores para volver a calcular las habilidades de ambas selecciones. 
+👉 Con el **botón Reset**, haremos un reseteado a cero de los contadores para volver a calcular las habilidades de ambas selecciones. 
 
 El evento **"onclick"** se encarga de ejecutar la funcionalidad de resetear cuando se hace clic en eñ botón.
 
@@ -87,3 +87,8 @@ Con esto, damos por terminado la implementación de la función **drap & drop** 
 1. Quisiera poder implantar la función de calcular un máximo de 11 jugadores por selección para hacer un cálculo exacto de las habilidades de la selección. Inicialmente no está definida.
 2. Posibilidad de elegir jugador por posición.
 3. Aumentar las características de los jugadores y poder hacer cálculos de habilidades por posición, velocidad, remate, fuerza, etc...
+
+## Agradecimientos:
+
+👉 Agradecer a Urbalab y a GeeksHubs Academy por el tiempo y la dedicación que han invertido en nosotros.
+
